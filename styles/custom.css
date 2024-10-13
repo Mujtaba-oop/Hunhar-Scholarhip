@@ -1,0 +1,169 @@
+.home-banner {
+    background:#055328 url("../images/banner/bg_banner_latest1.jpg") no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(105.62deg, #FED230 -95.22%, #027439 76.16%); */
+}
+.navbar-light .navbar-brand {
+    color: var(--mainColor);
+    font-weight: 700;
+    text-transform: uppercase;
+    max-width: 230px;
+}
+.new_btn {
+    background: #FFFFFF;
+    border-radius: 8px;
+    color: #236228;
+    font-weight: bold;
+    padding: 10px 30px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.home-banner .banner-text-area h1{
+    font-size: 45px;
+    line-height: 1.25;
+}
+/* eligibility Start */
+
+.eligibility{
+    /*background:#fff url("../images/banner/eligibility_banner.png") no-repeat;*/
+    background-size: cover;
+    padding: 120px 0 80px !important;
+}
+/* .eligibility_list{
+    width: 55%;
+} */
+.eligibility_list li{
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 8px;
+    font-size: 14px;
+	background:url("../images/tick_icon.png") no-repeat;
+}
+.eligibility_list li ul li{
+    position: relative;
+    padding-left: 5px;
+    margin-bottom: 8px;
+    font-size: 14px;
+	background: none;
+	list-style-type: square;
+}
+.eligibility_list li:before{
+    
+    position: absolute;
+    font-size: 18px;
+    color: #3BBCA7;
+    font-family:"Font Awesome 5 Free";
+    font-weight: 900;
+    left: 0;
+    top:0;
+}
+.not_eligibal_list li span{
+    font-size: 14px;
+    margin-bottom: 8px;
+    border-left: 3px solid #CD2626;
+    color: #CD2626;
+    background: #F8EBEB;
+    padding: 8px 20px;
+    display: inline-block;
+}
+.main_desc .title {
+    font-size: 20px;
+    font-weight: 700;
+}
+.scholership_title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    line-height: 1.35;
+}
+.card{    
+    border: 1px solid #ECECEC;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+}
+.btn-success-new{
+    background: linear-gradient(105.62deg, #FED230 -95.22%, #027439 76.16%);
+    border-radius: 12px;
+    padding: 13px 45px;
+    color: #fff !important;
+    line-height: 1;
+}
+
+/*eligibility ends*/
+/*check_eligibility start*/
+.eligibility2{
+    background: #fff;
+}
+.check_eligibility{
+    background: linear-gradient(105.62deg, #FED230 -95.22%, #027439 76.16%);
+    padding: 150px 0;
+    position: relative;
+}
+.check_eligibility .form-select{
+    padding-left: 33px;
+}
+.icon_elig {
+    position: absolute;
+    color: #3f3f3f;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 25px;
+}
+.image_cutted{
+    position: absolute;
+    right: 0;
+    max-width: 590px;
+    z-index: 999;
+    top: 30px;
+}
+/*check_eligibility Ends*/
+/*Footer*/
+.footer{
+    background: linear-gradient(105.62deg, #FED230 -95.22%, #027439 76.16%);
+}
+.footer::before{
+    display: none;
+}
+.footer-contact-card i{
+    position: unset;
+    margin-right: 8px;
+}
+
+
+/*Media Quries*/
+@media screen and (max-width:1180px){
+    
+    .btn-success-new {
+        padding: 8px 25px;
+    }
+    .menu-small-device{
+       top: 20px;
+    }
+    .image_cutted img{
+        max-width: 400px;
+    }
+    .check_eligibility{
+        padding: 50px 0;
+    }
+    .eligibility_list{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width:786px){
+    .eligibility_list{
+        width: 100%;
+    }
+    .scholership_title {
+        font-size: 32px;
+        font-weight: 700;
+    }
+    
+}
+.discipline{
+    background: #f5f5f5;
+    padding: 100px 0;
+}
+.discipline .main_desc .title{
+    font-size: 17px;
+}

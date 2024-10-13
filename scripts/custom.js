@@ -1,0 +1,3 @@
+(function($){"use strict";$(window).scroll(function(){if($(window).scrollTop()>0){$(".navbar-area").addClass("sticky");}else{$(".navbar-area").removeClass("sticky");}});$(window).scroll(function(){if($(window).scrollTop()>0){$(".navbar-area .main-nav").addClass("sticky");}else{$(".navbar-area .main-nav").removeClass("sticky");}});$('.popup-button').click(function(){$('.popup').css('visibility','visible');$('.popup-content').addClass('hi');})
+$('#popup-close').click(function(){$('.popup').css('visibility','hidden');$('.popup-content').removeClass('hi');})
+$(".mean-menu").meanmenu({meanScreenWidth:"1199",});})(jQuery);
